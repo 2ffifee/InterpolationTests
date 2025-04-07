@@ -1,0 +1,33 @@
+List of checks:
+
+1. Basic Interpolation Cases
+
+Simple multiline: Verify method chaining works in interpolation
+
+Complex expressions: Test LINQ queries in interpolations
+
+Method chaining: Validate string transformations
+
+Lambda expressions: Confirm lambda execution
+
+Ternary operator: Check both branches
+
+Switch expressions: Test pattern matching
+
+2. Edge Cases
+Empty Interpolation: Check what happens if we don't provide any expression
+
+Whitespace Interpolation: Check what happens if we just give empty interpolation expression
+
+Nested interpolations: Verify multiple levels work
+
+String literals with newlines: Check \n preservation
+
+Comments in interpolations: Confirm comments are ignored
+
+Random values: Validate output range (e.g., 0-99)
+
+3. Verbatim Comparison
+Non-verbatim strings: No newlines in output
+
+Verbatim strings: Same output as non-verbatim
